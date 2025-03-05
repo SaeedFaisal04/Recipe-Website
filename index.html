@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Saucy Secrets</h2>
+        <p>Bringing flavors to life—one bite, one whisk, one recipe at a time! 🍽️🔥</p>
+
+        <div class="search-box">
+            <input id="search" type="text" placeholder="Search for a taste that excites!">
+            <button onclick="searchRecipes()" id="search-btn">
+                Search
+            </button>
+        </div>
+    </div>
+
+    <div class="recipes" id="recipes"></div>
+    <div class="notfound" id="notfound">Find your next tasty adventure with us! 🍔🔥</div>
+
+
+    <div id="popup-card" class="popup-card">
+  <button class="closebtn" onclick="closeRecipe()">X</button>
+  <h3 id="recipe-title"></h3>
+  <p id="recipe-details"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
